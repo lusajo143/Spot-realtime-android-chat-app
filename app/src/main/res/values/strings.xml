@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Spot</string>
+    <dimen name="text_size">14dp</dimen>
+</resources>

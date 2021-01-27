@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aLogin.MainActivity">
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:backgroundTint="#f07d99"
+        android:layout_height="wrap_content"
+        android:src="@drawable/home"
+        app:layout_anchor="@id/bottom"
+        />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:fabAnimationMode="slide"
+        app:hideOnScroll="true"
+        app:fabCradleMargin="10dp"
+        app:menu="@menu/bottom"
+        android:backgroundTint="@color/colorPrimary"
+        android:id="@+id/bottom"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
